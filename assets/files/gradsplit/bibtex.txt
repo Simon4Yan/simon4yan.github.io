@@ -1,0 +1,6 @@
+@InProceedings{Deng_2023_WACV,
+author = {Deng, Weijian and Suh, Yumin and Yu, Xiang and Faraki, Masoud and Zheng, Liang and Chandraker, Manmohan},
+title = {Split to Learn: Gradient Split for Multi-Task Human Image Analysis},
+booktitle = {Proc. WACV},
+year = {2023}
+}

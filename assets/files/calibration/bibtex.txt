@@ -1,0 +1,8 @@
+@InProceedings{Zou_2023_ICCV,
+    author    = {Zou, Yuli and Deng, Weijian and Zheng, Liang},
+    title     = {Adaptive Calibrator Ensemble: Navigating Test Set Difficulty in Out-of-Distribution Scenarios},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {19333-19342}
+}

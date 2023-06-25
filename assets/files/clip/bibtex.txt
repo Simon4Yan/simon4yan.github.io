@@ -1,0 +1,6 @@
+@inproceedings{tu2023closer,
+  title={A Closer Look at the Robustness of Contrastive Language-Image Pre-Training (CLIP)},
+  author={Tu, Weijie and Deng, Weijian and Gedeon, Tom},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems},
+  year={2023}
+}

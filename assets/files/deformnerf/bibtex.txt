@@ -1,0 +1,11 @@
+@inproceedings{Deng:WACV24,
+  author    = {Weijian Deng and
+               Dylan Campbell and
+               Chunyi Sun and
+               Shubham Kanitkar and
+               Matthew Shaffer and
+               Stephen Gould},
+  title     = {Ray Deformation Networks for Novel View Synthesis of Refractive Objects},
+  booktitle = {WACV},
+  year      = {2024}
+}

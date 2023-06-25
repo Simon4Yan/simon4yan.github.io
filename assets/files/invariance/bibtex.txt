@@ -1,0 +1,8 @@
+@inproceedings{Deng:NeurIPS22,
+  author    = {Weijian Deng and
+               Stephen Gould and
+               Liang Zheng},
+  title     = {On the Strong Correlation Between Model Invariance and Generalization},
+  booktitle = {NeurIPS},
+  year      = {2022}
+}

@@ -1,0 +1,21 @@
+# Main code for Confidence and Dispersity Speak: Characterising Prediction Matrix for Unsupervised Accuracy Estimation (ICML'23)
+
+# MIT license
+
+# Please use TIMM (https://github.com/fastai/timmdocs/tree/master/) to test models on test datasets
+
+# transform model's output logits to softmax score matrix (Temp T is a hyper-parameter)
+# logits size: N x C, where N is number of test samples and C is the number of classes
+T = 0.4
+softmax_outputs = F.softmax(logits/T, dim=1)
+
+# nuclear norm of softmax score matrix
+raw_nuclear = torch.norm(softmax_outputs, p='nuc')
+
+# upper bound of nuclear norm
+n_norm = np.sqrt(softmax_outputs[0] * np.min([softmax_outputs[0], softmax_outputs[1]]))
+
+# final score
+nuclear_score = raw_nuclear / n_norm
+
+# All Done! Enjoy!

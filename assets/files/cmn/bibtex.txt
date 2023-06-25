@@ -1,0 +1,6 @@
+@article{deng2020fine,
+ author={Deng, Weijian and Marsh, Joshua and Gould, Stephen and Zheng, Liang},
+ title={Fine-grained Classification via Categorical Memory Networks},
+  journal={IEEE Transactions on Image Processing},
+  year      = {2022}
+}

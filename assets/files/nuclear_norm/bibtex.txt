@@ -1,0 +1,9 @@
+@inproceedings{Deng:ICML23,
+  author    = {Weijian Deng and
+               Yumin Suh and
+               Stephen Gould and
+               Liang Zheng},
+  title     = {Confidence and Dispersity Speak: Characterizing Prediction Matrix for Unsupervised Accuracy Estimation},
+  booktitle = {ICML},
+  year      = {2023}
+}
